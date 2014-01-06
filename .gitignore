@@ -12,6 +12,7 @@
 bin/
 gen/
 
+
 # Local configuration file (sdk path, etc)
 local.properties
 
@@ -27,3 +28,6 @@ proguard/
 *.ipr
 *.iws
 .idea/
+
+# Private values
+res/values/private_values.xml

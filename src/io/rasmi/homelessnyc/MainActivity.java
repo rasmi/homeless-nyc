@@ -1,15 +1,52 @@
 package io.rasmi.homelessnyc;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.app.Activity;
+import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
+import android.view.View;
+import android.widget.Button;
 
-public class MainActivity extends Activity {
+
+public class MainActivity extends FragmentActivity {
+	
+	private Button foodButton;
+	private Button shelterButton;
+	private Button resourcesButton;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+		foodButton = (Button)findViewById(R.id.foodbutton);
+		foodButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent i = new Intent(MainActivity.this, MapActivity.class);
+				startActivity(i);
+			}
+		});
+		
+		shelterButton = (Button)findViewById(R.id.shelterbutton);
+		shelterButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				
+			}
+		});
+		
+		resourcesButton = (Button)findViewById(R.id.resourcesbutton);
+		resourcesButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				
+			}
+		});
+		
+		
+		
+		
 	}
 
 	@Override
