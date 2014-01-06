@@ -4,5 +4,10 @@
     <string name="app_name">Homeless Helper NYC</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="find_food">Find Food</string>
+    <string name="find_shelter">Find Shelter</string>
+    <string name="find_resources">Find Resources</string>
+    <string name="report_person">Report a Homeless Person</string>
+    <string name="help_community">Help the Community</string>
 
 </resources>

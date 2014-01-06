@@ -1,16 +1,61 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:orientation="horizontal"
+        android:paddingTop="16dp" >
 
-</RelativeLayout>
+        <Button
+            android:id="@+id/foodbutton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/find_food" />
+
+        <Button
+            android:id="@+id/shelterbutton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/find_shelter" />
+
+        <Button
+            android:id="@+id/resourcesbutton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:text="@string/find_resources" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="16dp" >
+
+        <Button
+            android:id="@+id/reportbutton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:text="@string/report_person" />
+
+        <Button
+            android:id="@+id/communitybutton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/help_community" />
+    </LinearLayout>
+
+</LinearLayout>
