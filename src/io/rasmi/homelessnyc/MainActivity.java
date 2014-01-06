@@ -1,5 +1,7 @@
 package io.rasmi.homelessnyc;
 
+import java.util.ArrayList;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
@@ -13,6 +15,7 @@ public class MainActivity extends FragmentActivity {
 	private Button foodButton;
 	private Button shelterButton;
 	private Button resourcesButton;
+	private ArrayList<foodBank> foodBanks;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -44,8 +47,7 @@ public class MainActivity extends FragmentActivity {
 			}
 		});
 		
-		
-		
+		foodBanks = facilitiesManager.get(getApplicationContext()).getFoodBanks();
 		
 	}
 
