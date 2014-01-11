@@ -3,7 +3,7 @@ package io.rasmi.homelessnyc;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class foodBank {
+public class facility {
 	
 	protected String name;
 	protected String type;
@@ -23,7 +23,7 @@ public class foodBank {
 	protected double longitude;
 	
 	
-	public foodBank(String name, String type, String id, String brief_description, String description,
+	public facility(String name, String type, String id, String brief_description, String description,
 			String hours, String eligibility_information, String address, String city, String state, String zipcode,
 			String borough, String additional_address_information, double latitude, double longitude) {
 		
@@ -44,7 +44,7 @@ public class foodBank {
 		this.longitude = longitude;
 	}
 	
-	public foodBank(JSONObject json) throws JSONException {
+	public facility(JSONObject json) throws JSONException {
 		this.name = json.getString("facility_name");
 		this.type = json.getString("type");
 		this.id = json.getString("id");

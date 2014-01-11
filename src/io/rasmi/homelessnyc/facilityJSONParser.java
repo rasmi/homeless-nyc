@@ -21,8 +21,8 @@ public class facilityJSONParser {
 		mContext = context;
 	}
 	
-	public ArrayList<foodBank> loadFoodBanks() throws IOException, JSONException {
-		ArrayList<foodBank> foodbanks = new ArrayList<foodBank>();
+	public ArrayList<facility> loadFacilities() throws IOException, JSONException {
+		ArrayList<facility> facilities = new ArrayList<facility>();
 		BufferedReader reader = null;
 		
 		try {
@@ -40,16 +40,16 @@ public class facilityJSONParser {
 			
 			JSONArray array = (JSONArray) new JSONTokener(jsonString.toString()).nextValue();
 			for (int i = 0; i < array.length(); i++) {
-				foodbanks.add(new foodBank(array.getJSONObject(i)));
+				facilities.add(new facility(array.getJSONObject(i)));
 			}
 			Log.i(TAG, "Loaded " + array.length() + " objects from JSON.");
 		} catch(Exception e) {
-			Log.e(TAG, "Error loading foodbanks from JSON. " + e.getLocalizedMessage());
+			Log.e(TAG, "Error loading facilities from JSON. " + e.getLocalizedMessage());
 		} finally {
 			if (reader != null) 
 				reader.close();
 		}
 		
-		return foodbanks;
+		return facilities;
 	}
 }

@@ -15,7 +15,7 @@ public class MainActivity extends FragmentActivity {
 	private Button foodButton;
 	private Button shelterButton;
 	private Button resourcesButton;
-	private ArrayList<foodBank> foodBanks;
+	private ArrayList<facility> facilities;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -47,7 +47,7 @@ public class MainActivity extends FragmentActivity {
 			}
 		});
 		
-		foodBanks = facilitiesManager.get(getApplicationContext()).getFoodBanks();
+		//facilities = facilitiesManager.get(getApplicationContext()).getFacilities();
 		
 	}
 

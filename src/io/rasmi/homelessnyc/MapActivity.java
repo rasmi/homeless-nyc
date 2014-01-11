@@ -13,26 +13,27 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapActivity extends FragmentActivity {
 	private static final String TAG = "MapActivity";
-	private GoogleMap foodMap;
-	private ArrayList<foodBank> foodBanks;
+	private GoogleMap facilityMap;
+	private ArrayList<facility> foodbanks;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.mapview);
 		
-		foodMap = ((MapFragment) getFragmentManager().findFragmentById(R.id.map)).getMap();
+		facilityMap = ((MapFragment) getFragmentManager().findFragmentById(R.id.map)).getMap();
 		
-		foodBanks = facilitiesManager.get(getApplicationContext()).getFoodBanks();
+		foodbanks = facilitiesManager.get(getApplicationContext()).getFacilities();
+		
 		Log.i(TAG, "About to add markers for foodBanks");
-		for (foodBank fb : foodBanks) {
-			foodMap.addMarker(new MarkerOptions()
-				.position(new LatLng(fb.latitude, fb.longitude))
-				.title(fb.name)
-				.snippet(fb.description));
+		for (facility f : foodbanks) {
+			facilityMap.addMarker(new MarkerOptions()
+				.position(new LatLng(f.latitude, f.longitude))
+				.title(f.name)
+				.snippet(f.description));
 		}
-		Log.i(TAG, "Finished adding markers.");
 		
+		Log.i(TAG, "Finished adding markers.");
 	}
 
 }

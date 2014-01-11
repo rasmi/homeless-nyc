@@ -7,7 +7,7 @@ import android.util.Log;
 
 public class facilitiesManager {
 	private static final String TAG = "facilitiesManager";
-	private ArrayList<foodBank> foodBanks;
+	private ArrayList<facility> facilities;
 	private static facilitiesManager FacilitiesManager;
 	private Context mAppContext;
 	private facilityJSONParser JSONParser;
@@ -16,10 +16,10 @@ public class facilitiesManager {
 		mAppContext = appContext;
 		JSONParser = new facilityJSONParser(mAppContext);
 		try {
-			foodBanks = JSONParser.loadFoodBanks();
+			facilities = JSONParser.loadFacilities();
 		} catch (Exception e) {
-			foodBanks = new ArrayList<foodBank>();
-			Log.e(TAG, "Error loading foodBanks from JSON file.");
+			facilities = new ArrayList<facility>();
+			Log.e(TAG, "Error loading facilities from JSON file.");
 		}
 	}
 	
@@ -31,14 +31,14 @@ public class facilitiesManager {
 		return FacilitiesManager;
 	}
 	
-	public ArrayList<foodBank> getFoodBanks() {
-		return foodBanks;
+	public ArrayList<facility> getFacilities() {
+		return facilities;
 	}
 	
-	public foodBank getFoodBank(String id) {
-		for (foodBank fb : foodBanks) {
-			if (fb.id.equals(id))
-				return fb;
+	public facility getFacility(String id) {
+		for (facility f : facilities) {
+			if (f.id.equals(id))
+				return f;
 		}
 		return null;
 	}
