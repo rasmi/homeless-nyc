@@ -21,14 +21,16 @@ public class facilityJSONParser {
 		mContext = context;
 	}
 	
-	public ArrayList<facility> loadFacilities() throws IOException, JSONException {
+	public ArrayList<facility> loadFacilities(String type) throws IOException, JSONException {
+		String resourceName = "raw/" + type;
+		
 		ArrayList<facility> facilities = new ArrayList<facility>();
 		BufferedReader reader = null;
 		
 		try {
 			InputStream in = 
 					mContext.getResources().openRawResource(mContext.getResources()
-							.getIdentifier("raw/foodbanks","raw", mContext.getPackageName()));
+							.getIdentifier(resourceName,"raw", mContext.getPackageName()));
 			
 			reader = new BufferedReader(new InputStreamReader(in));
 			StringBuilder jsonString = new StringBuilder();

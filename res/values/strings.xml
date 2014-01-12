@@ -9,5 +9,14 @@
     <string name="find_resources">Find Resources</string>
     <string name="report_person">Report a Homeless Person</string>
     <string name="help_community">Help the Community</string>
+    <string name="foodbank">Food Bank</string>
+    <string name="foodstampcenter">Food Stamp Center</string>
+    <string name="library">Library</string>
+    <string name="homebase_site">HomeBase Site</string>
+    <string name="address">Address</string>
+    <string name="info">Information</string>
+    <string name="hours">Hours</string>
+    <string name="facility_information">Facility Information</string>
+    <string name="map">Map</string>
 
 </resources>

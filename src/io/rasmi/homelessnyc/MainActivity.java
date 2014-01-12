@@ -15,6 +15,7 @@ public class MainActivity extends FragmentActivity {
 	private Button foodButton;
 	private Button shelterButton;
 	private Button resourcesButton;
+	private facilitiesManager FacilitiesManager;
 	private ArrayList<facility> facilities;
 
 	@Override
@@ -27,6 +28,7 @@ public class MainActivity extends FragmentActivity {
 			@Override
 			public void onClick(View v) {
 				Intent i = new Intent(MainActivity.this, MapActivity.class);
+				i.putExtra("type", "foodbanks");
 				startActivity(i);
 			}
 		});
@@ -35,7 +37,9 @@ public class MainActivity extends FragmentActivity {
 		shelterButton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				
+				Intent i = new Intent(MainActivity.this, MapActivity.class);
+				i.putExtra("type", "libraries");
+				startActivity(i);
 			}
 		});
 		
@@ -47,7 +51,7 @@ public class MainActivity extends FragmentActivity {
 			}
 		});
 		
-		//facilities = facilitiesManager.get(getApplicationContext()).getFacilities();
+		FacilitiesManager = facilitiesManager.get(getApplicationContext());
 		
 	}
 

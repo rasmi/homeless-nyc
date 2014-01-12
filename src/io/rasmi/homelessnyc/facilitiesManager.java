@@ -7,18 +7,28 @@ import android.util.Log;
 
 public class facilitiesManager {
 	private static final String TAG = "facilitiesManager";
-	private ArrayList<facility> facilities;
 	private static facilitiesManager FacilitiesManager;
 	private Context mAppContext;
 	private facilityJSONParser JSONParser;
+	
+	private ArrayList<facility> foodbanks;
+	private ArrayList<facility> foodstamps;
+	private ArrayList<facility> homebases;
+	private ArrayList<facility> libraries;
 	
 	private facilitiesManager(Context appContext) {
 		mAppContext = appContext;
 		JSONParser = new facilityJSONParser(mAppContext);
 		try {
-			facilities = JSONParser.loadFacilities();
+			foodbanks = JSONParser.loadFacilities("foodbanks");
+			foodstamps = JSONParser.loadFacilities("foodstamps");
+			homebases = JSONParser.loadFacilities("homebases");
+			libraries = JSONParser.loadFacilities("libraries");
 		} catch (Exception e) {
-			facilities = new ArrayList<facility>();
+			foodbanks = new ArrayList<facility>();
+			foodstamps = new ArrayList<facility>();
+			homebases = new ArrayList<facility>();
+			libraries = new ArrayList<facility>();
 			Log.e(TAG, "Error loading facilities from JSON file.");
 		}
 	}
@@ -31,10 +41,15 @@ public class facilitiesManager {
 		return FacilitiesManager;
 	}
 	
-	public ArrayList<facility> getFacilities() {
-		return facilities;
+	public ArrayList<facility> getFacilities(String type) {
+		if ("foodbanks".equals(type)) return foodbanks;
+		else if ("foodstamps".equals(type)) return foodstamps;
+		else if ("homebases".equals(type)) return homebases;
+		else if ("libraries".equals(type)) return libraries;
+		else return null;
 	}
 	
+	/*
 	public facility getFacility(String id) {
 		for (facility f : facilities) {
 			if (f.id.equals(id))
@@ -42,5 +57,5 @@ public class facilitiesManager {
 		}
 		return null;
 	}
-
+	*/
 }
