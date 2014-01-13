@@ -1,7 +1,5 @@
 package io.rasmi.homelessnyc;
 
-import java.util.ArrayList;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
@@ -16,7 +14,6 @@ public class MainActivity extends FragmentActivity {
 	private Button shelterButton;
 	private Button resourcesButton;
 	private facilitiesManager FacilitiesManager;
-	private ArrayList<facility> facilities;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +35,7 @@ public class MainActivity extends FragmentActivity {
 			@Override
 			public void onClick(View v) {
 				Intent i = new Intent(MainActivity.this, MapActivity.class);
-				i.putExtra("type", "libraries");
+				i.putExtra("type", "shelters");
 				startActivity(i);
 			}
 		});
@@ -52,7 +49,6 @@ public class MainActivity extends FragmentActivity {
 		});
 		
 		FacilitiesManager = facilitiesManager.get(getApplicationContext());
-		
 	}
 
 	@Override

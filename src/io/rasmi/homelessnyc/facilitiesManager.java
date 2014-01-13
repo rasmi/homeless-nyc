@@ -15,6 +15,7 @@ public class facilitiesManager {
 	private ArrayList<facility> foodstamps;
 	private ArrayList<facility> homebases;
 	private ArrayList<facility> libraries;
+	private ArrayList<facility> shelters;
 	
 	private facilitiesManager(Context appContext) {
 		mAppContext = appContext;
@@ -24,11 +25,13 @@ public class facilitiesManager {
 			foodstamps = JSONParser.loadFacilities("foodstamps");
 			homebases = JSONParser.loadFacilities("homebases");
 			libraries = JSONParser.loadFacilities("libraries");
+			shelters = JSONParser.loadFacilities("shelters");
 		} catch (Exception e) {
 			foodbanks = new ArrayList<facility>();
 			foodstamps = new ArrayList<facility>();
 			homebases = new ArrayList<facility>();
 			libraries = new ArrayList<facility>();
+			shelters = new ArrayList<facility>();
 			Log.e(TAG, "Error loading facilities from JSON file.");
 		}
 	}
@@ -46,6 +49,7 @@ public class facilitiesManager {
 		else if ("foodstamps".equals(type)) return foodstamps;
 		else if ("homebases".equals(type)) return homebases;
 		else if ("libraries".equals(type)) return libraries;
+		else if ("shelters".equals(type)) return shelters;
 		else return null;
 	}
 	

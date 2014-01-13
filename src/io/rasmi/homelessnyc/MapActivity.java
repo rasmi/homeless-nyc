@@ -83,7 +83,7 @@ public class MapActivity extends FragmentActivity {
 		else if ("foodstamps".equals(type)) title += getResources().getString(R.string.foodstampcenter);
 		else if ("homebases".equals(type)) title += getResources().getString(R.string.homebase_site);
 		else if ("libraries".equals(type)) title += getResources().getString(R.string.library);
-		
+		else if ("shelters".equals(type)) title += getResources().getString(R.string.shelter);
 		return title;
 	}
 	

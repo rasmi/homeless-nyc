@@ -2,7 +2,63 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
-    
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    <TextView
+        android:id="@+id/facilityname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="5"
+        android:padding="8dp"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/facilitydescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="10"
+        android:padding="8dp" />
+
+    <TextView
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:text="@string/hours" />
+
+    <TextView
+        android:id="@+id/facilityhours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="10"
+        android:padding="8dp" />
+
+    <TextView
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:text="@string/address" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/getDirections"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_menu_directions" />
+
+        <TextView
+            android:id="@+id/facilityaddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="5"
+            android:padding="8dp"
+            android:textColor="@android:color/holo_blue_dark" />
+    </LinearLayout>
 
 </LinearLayout>
