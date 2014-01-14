@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    <TextView
+        android:id="@+id/reportdescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="10"
+        android:padding="8dp"
+        android:text="@string/report_description"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp" />
+
+    <TextView
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:text="@string/location" />
+
+    <EditText
+        android:id="@+id/reportpersonlocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/location_hint"
+        android:maxLines="2"
+        android:padding="8dp" />
+
+    <TextView
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:text="@string/info" />
+
+    <EditText
+        android:id="@+id/reportpersondetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/report_hint"
+        android:maxLines="10"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:text="@string/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:layout_gravity="center_horizontal"
+        android:padding="4dp" />
+
+</LinearLayout>

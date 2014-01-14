@@ -1,6 +1,7 @@
 package io.rasmi.homelessnyc;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
@@ -14,6 +15,7 @@ public class MainActivity extends FragmentActivity {
 	private Button shelterButton;
 	private Button resourcesButton;
 	private Button communityButton;
+	private Button reportButton;
 	private facilitiesManager FacilitiesManager;
 	private servicesManager ServicesManager;
 
@@ -23,6 +25,7 @@ public class MainActivity extends FragmentActivity {
 		setContentView(R.layout.activity_main);
 		
 		foodButton = (Button)findViewById(R.id.foodbutton);
+		foodButton.setBackgroundColor(Color.parseColor("#33b5e5"));
 		foodButton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -33,6 +36,8 @@ public class MainActivity extends FragmentActivity {
 		});
 		
 		shelterButton = (Button)findViewById(R.id.shelterbutton);
+		shelterButton.setBackgroundColor(Color.parseColor("#33b5e5"));
+		shelterButton.getBackground().setAlpha(128);
 		shelterButton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -43,6 +48,8 @@ public class MainActivity extends FragmentActivity {
 		});
 		
 		resourcesButton = (Button)findViewById(R.id.resourcesbutton);
+		resourcesButton.setBackgroundColor(Color.parseColor("#33b5e5"));
+		resourcesButton.getBackground().setAlpha(64);
 		resourcesButton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -53,11 +60,23 @@ public class MainActivity extends FragmentActivity {
 		});
 		
 		communityButton = (Button)findViewById(R.id.communitybutton);
+		communityButton.setBackgroundColor(Color.parseColor("#99cc00"));
+		communityButton.getBackground().setAlpha(128);
 		communityButton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				Intent i = new Intent(MainActivity.this, serviceList.class);
 				i.putExtra("type", "community");
+				startActivity(i);
+			}
+		});
+		
+		reportButton = (Button)findViewById(R.id.reportbutton);
+		reportButton.setBackgroundColor(Color.parseColor("#99cc00"));
+		reportButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent i = new Intent(MainActivity.this, reportActivity.class);
 				startActivity(i);
 			}
 		});

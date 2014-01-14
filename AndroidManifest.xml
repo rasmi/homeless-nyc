@@ -37,6 +37,9 @@
             android:name=".serviceInfo"
             android:label="@string/info" />
         <activity
+            android:name=".reportActivity"
+            android:label="@string/report_person" />
+        <activity
             android:name="io.rasmi.homelessnyc.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>

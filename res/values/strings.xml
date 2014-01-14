@@ -23,5 +23,10 @@
     <string name="moreinfo">More Information</string>
     <string name="opportunity">Community Opportunity</string>
     <string name="faqs">Frequently Asked Questions</string>
+    <string name="report_description">Report the location of a homeless person who would benefit from City outreach services.</string>
+    <string name="report_hint">Enter details about the person and their location.</string>
+    <string name="location">Location</string>
+    <string name="location_hint">Where is this person located?</string>
+    <string name="submit">Submit</string>
 
 </resources>
