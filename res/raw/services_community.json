@@ -1,0 +1,155 @@
+[
+  {
+    "id": "20090318-BAFCE442-13C9-11DE-9034-8F67298FD011",
+    "service_name": "Volunteer Opportunities",
+    "expiration": "12-31-2099T00:00:00Z",
+    "categories": [
+      {
+        "category_name": "Social Services"
+      }
+    ],
+    "url": "/nyc-resources/service/2698/service",
+    "brief_description": "Get information about NYC Service and various volunteer opportunities throughout the City.",
+    "description": "The City encourages you to register with NYC Service and take part in projects designed to help New York and New Yorkers recover from Hurricane Sandy.\nThrough NYC Service, generally you will find opportunities to volunteer in one of the six areas where your help is needed the most:\n\nStrengthening communities\nHelping neighbors and people in need\nEducation\nThe environment\nHealth\nEmergency preparedness\n",
+    "description_html": " The City encourages you to register with NYC Service and take part in projects designed to help New York and New Yorkers recover from Hurricane Sandy. \n Through NYC Service, generally you will find opportunities to volunteer in one of the six areas where your help is needed the most: \n \n Strengthening communities \n Helping neighbors and people in need \n Education \n The environment \n Health \n Emergency preparedness \n ",
+    "web_actions": [
+      {
+        "type": "Webpage",
+        "label": "Register with NYC Service.",
+        "url": "https://www.facebook.com/nycservice"
+      },
+      {
+        "type": "Webpage",
+        "label": "Search for volunteer opportunities.",
+        "url": "http://www.nyc.gov/service"
+      },
+      {
+        "type": "Webpage",
+        "label": "Get information about Adopt a Food Program volunteer opportunities.",
+        "url": "http://help.foodbanknyc.org/site/Survey?ACTION_REQUIRED=URI_ACTION_USER_REQUESTS&SURVEY_ID=2960"
+      },
+      {
+        "type": "Webpage",
+        "label": "Get information about financial education and tax preparation volunteer opportunities.",
+        "url": "http://www.nyc.gov/html/ofe/html/about/volunteer.shtml"
+      },
+      {
+        "type": "Webpage",
+        "label": "Get information about TimeBanksNYC.",
+        "url": "http://www.nycservice.org/initiatives/index.php?bitinitiative_id=9"
+      },
+      {
+        "type": "Webpage",
+        "label": "Volunteer to remove snow.",
+        "url": "http://www.nycservice.org/opportunities/6003"
+      },
+      {
+        "type": "Webpage",
+        "label": "Get information on NYC Service Legal Outreach.",
+        "url": "http://volunteer.nycservice.org"
+      }
+    ],
+    "faqs": [
+      
+    ]
+  },
+  {
+    "id": "20090318-15806F10-13CA-11DE-A869-E41D07C3D791",
+    "service_name": "Youth Counseling and Services",
+    "expiration": "12-31-2099T00:00:00Z",
+    "categories": [
+      {
+        "category_name": "Social Services"
+      },
+      {
+        "category_name": "Health"
+      }
+    ],
+    "url": "/nyc-resources/service/2770/service",
+    "brief_description": "Get information about services for troubled, runaway, or homeless youth and their families, including Youth Connect and walk-in centers.",
+    "description": "Through Youth Connect, the City provides confidential and anonymous telephone or online assistance for youth, their families, and concerned service providers. They will provide referrals or simply listen to your problems. They provide information on delinquency prevention and youth intervention programs, employment, recreation, after-school programs, day care and more. In addition, they offer crisis intervention for runaways.Drop-in centers are located in every borough to provide services to runaway, homeless, and troubled youth and their families. Services include counseling, mediation, and referrals to health, mental health, and substance abuse treatment.",
+    "description_html": "Through Youth Connect, the City provides confidential and anonymous telephone or online assistance for youth, their families, and concerned service providers. They will provide referrals or simply listen to your problems. They provide information on delinquency prevention and youth intervention programs, employment, recreation, after-school programs, day care and more. In addition, they offer crisis intervention for runaways.<br><br>Drop-in centers are located in every borough to provide services to runaway, homeless, and troubled youth and their families. Services include counseling, mediation, and referrals to health, mental health, and substance abuse treatment.",
+    "web_actions": [
+      {
+        "type": "Webpage",
+        "label": "Get information about Youth Connect's confidential services.",
+        "url": "http://www.nyc.gov/html/dycd/html/youth/youth.shtml"
+      }
+    ],
+    "faqs": [
+      
+    ]
+  },
+  {
+    "id": "2002-12-05-22-25-49_000010083df018c04001ec6a",
+    "service_name": "Donate to the Homeless Trust Fund",
+    "expiration": "12-31-2099T00:00:00Z",
+    "categories": [
+      {
+        "category_name": "Social Services"
+      }
+    ],
+    "url": "/nyc-resources/service/1553/service",
+    "brief_description": "Donate money to help homeless people.",
+    "description": "You can help improve the quality of life of homeless individuals by donating to the Homeless Trust Fund.&nbsp;",
+    "description_html": "You can help improve the quality of life of homeless individuals by donating to the Homeless Trust Fund.&nbsp;",
+    "web_actions": [
+      {
+        "type": "Webpage",
+        "label": "Learn about the Homeless Trust Fund.",
+        "url": "http://www.nyc.gov/html/dhs/html/help/donations.shtml"
+      }
+    ],
+    "faqs": [
+      
+    ]
+  },
+  {
+    "id": "20090318-F8370D24-13C9-11DE-9322-8DB5451E3205",
+    "service_name": "Contact a Homeless Individual or Family",
+    "expiration": "12-31-2099T00:00:00Z",
+    "categories": [
+      {
+        "category_name": "Social Services"
+      }
+    ],
+    "url": "/nyc-resources/service/1440/service",
+    "brief_description": "Get assistance with contacting a homeless individual or family in a shelter. ",
+    "description": "The City provides assistance with contacting a homeless individual or family in shelters. You must supply the following about the person or head of the family when requesting information: Full name  Date of birth  Social security number Mother's maiden name",
+    "description_html": "The City provides assistance with contacting a homeless individual or family in shelters. You must supply the following about the person or head of the family when requesting information:<br><br><ul><li> Full name <\/li><li> Date of birth <\/li><li> Social security number<\/li><li> Mother's maiden name<\/li><\/ul>",
+    "web_actions": [
+      {
+        "type": "Webpage",
+        "label": "Call 311 to get assistance with contacting a homeless individual or family in a shelter.",
+        "url": ""
+      }
+    ],
+    "faqs": [
+      
+    ]
+  },
+  {
+    "id": "20040123-C660F5DA-4DB8-11D8-8768-BA5B5FBAA081",
+    "service_name": "Volunteer to Survey Homeless Individuals",
+    "expiration": "01-29-2014T00:00:00Z",
+    "categories": [
+      {
+        "category_name": "Social Services"
+      }
+    ],
+    "url": "/nyc-resources/service/3401/service",
+    "brief_description": "HOPE volunteers will survey homeless individuals January 27th.",
+    "description": "The Homeless Outreach Population Estimate (HOPE) takes place on January 27th.&nbsp; You can register to volunteer to survey homeless individuals.&nbsp; You must be 18 or older and be willing to work from 10:30 PM to 4:00 AM.&nbsp; All volunteers will be trained before going out with their teams.\n&nbsp;",
+    "description_html": "The Homeless Outreach Population Estimate (HOPE) takes place on January 27th.&nbsp; You can register to volunteer to survey homeless individuals.&nbsp; You must be 18 or older and be willing to work from 10:30 PM to 4:00 AM.&nbsp; All volunteers will be trained before going out with their teams.\n<p>&nbsp;<\/p>",
+    "web_actions": [
+      {
+        "type": "Webpage",
+        "label": "Register to volunteer for HOPE.",
+        "url": "https://a071-hope.nyc.gov/hope/index.html"
+      }
+    ],
+    "faqs": [
+      
+    ]
+  }
+ ]

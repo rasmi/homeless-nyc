@@ -9,7 +9,7 @@ public class facilitiesManager {
 	private static final String TAG = "facilitiesManager";
 	private static facilitiesManager FacilitiesManager;
 	private Context mAppContext;
-	private facilityJSONParser JSONParser;
+	private JSONParser parser;
 	
 	private ArrayList<facility> foodbanks;
 	private ArrayList<facility> foodstamps;
@@ -19,13 +19,13 @@ public class facilitiesManager {
 	
 	private facilitiesManager(Context appContext) {
 		mAppContext = appContext;
-		JSONParser = new facilityJSONParser(mAppContext);
+		parser = new JSONParser(mAppContext);
 		try {
-			foodbanks = JSONParser.loadFacilities("foodbanks");
-			foodstamps = JSONParser.loadFacilities("foodstamps");
-			homebases = JSONParser.loadFacilities("homebases");
-			libraries = JSONParser.loadFacilities("libraries");
-			shelters = JSONParser.loadFacilities("shelters");
+			foodbanks = parser.loadFacilities("foodbanks");
+			foodstamps = parser.loadFacilities("foodstamps");
+			homebases = parser.loadFacilities("homebases");
+			libraries = parser.loadFacilities("libraries");
+			shelters = parser.loadFacilities("shelters");
 		} catch (Exception e) {
 			foodbanks = new ArrayList<facility>();
 			foodstamps = new ArrayList<facility>();

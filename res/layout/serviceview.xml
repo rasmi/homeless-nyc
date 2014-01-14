@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/serviceviewlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="16dp" >
+
+        <TextView
+            android:id="@+id/servicename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="5"
+            android:padding="8dp"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/servicedescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/webactionseparator"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:text="@string/moreinfo" />
+
+        <TextView
+            android:id="@+id/faqseparator"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:paddingTop="8dp"
+            android:text="@string/faqs" />
+    </LinearLayout>
+
+</ScrollView>

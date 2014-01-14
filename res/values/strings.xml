@@ -19,5 +19,9 @@
     <string name="hours">Hours</string>
     <string name="facility_information">Facility Information</string>
     <string name="map">Map</string>
+    <string name="resource">Resource</string>
+    <string name="moreinfo">More Information</string>
+    <string name="opportunity">Community Opportunity</string>
+    <string name="faqs">Frequently Asked Questions</string>
 
 </resources>

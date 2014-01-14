@@ -1,0 +1,399 @@
+[
+  {
+    "id": "20090318-007C9BFC-13CA-11DE-8745-B66E0E6C191A",
+    "service_name": "Homeless Shelter Intake Information",
+    "expiration": "12-31-2099T00:00:00Z",
+    "categories": [
+      {
+        "category_name": "Social Services"
+      }
+    ],
+    "url": "/nyc-resources/service/1856/service",
+    "brief_description": "Get temporary emergency shelter.",
+    "description": "The City offers intake services to homeless families, pregnant women, and single adults, to apply to enter the shelter system.Runaway shelters are available to young people under 21 who are homeless or in crisis. Pregnant girls and young people under 21 with children are also eligible for crisis shelter.",
+    "description_html": "<p>The City offers intake services to homeless families, pregnant women, and single adults, to apply to enter the shelter system.<\/p><p>Runaway shelters are available to young people under 21 who are homeless or in crisis. Pregnant girls and young people under 21 with children are also eligible for crisis shelter.<\/p>",
+    "web_actions": [
+      {
+        "type": "Webpage",
+        "label": "Get information about applying for homeless shelter for:",
+        "url": ""
+      },
+      {
+        "type": "Webpage",
+        "label": "Families with children and for pregnant women",
+        "url": "http://www.nyc.gov/html/dhs/html/housing/families.shtml"
+      },
+      {
+        "type": "Webpage",
+        "label": "Adult families",
+        "url": "http://www.nyc.gov/html/dhs/html/housing/adult.shtml"
+      },
+      {
+        "type": "Webpage",
+        "label": "Single adults",
+        "url": "http://www.nyc.gov/html/dhs/html/housing/single.shtml"
+      },
+      {
+        "type": "Webpage",
+        "label": "Get assistance for young people:",
+        "url": ""
+      },
+      {
+        "type": "Webpage",
+        "label": "Programs and services available to youth in crisis",
+        "url": "http://www.nyc.gov/html/dycd/html/runaway/runaway.shtml"
+      },
+      {
+        "type": "Webpage",
+        "label": "Youth Connect, a free and confidential helpline",
+        "url": "http://www.nyc.gov/html/dycd/html/youth/youth.shtml"
+      },
+      {
+        "type": "Webpage",
+        "label": "Call 311 to get shelter for runaway, pregnant, or in-crisis youth",
+        "url": ""
+      }
+    ],
+    "faqs": [
+      {
+        "id":"20120720-F12EEB3A-D2BD-11E1-AEFF-8D2DBEB117F4",
+        "question":"Can I get a list of homeless shelter locations and phone numbers?",
+        "expiration":"12-31-2099T00:00:00Z",
+        "url":"/nyc-resources/faq/313/faq",
+        "answer":"311 does not provide specific homeless shelter locations and phone numbers. If you are homeless and need emergency shelter, you can go to an intake center to see if you're eligible.",
+        "answer_html":"311 does not provide specific homeless shelter locations and phone numbers. If you are homeless and need emergency shelter, you can go to an intake center to see if you're eligible."
+      },
+      {
+        "id":"20120724-2C5AE24C-D5C3-11E1-8DF5-FD45F32E1267",
+        "question":"How do I find a homeless shelter?",
+        "expiration":"12-31-2099T00:00:00Z",
+        "url":"/nyc-resources/faq/364/faq",
+        "answer":"To apply for emergency shelter, you must go to an intake center. The Department of Homeless Services provides more information on their website for families with children and for pregnant women, for adult families, and for single adults.",
+        "answer_html":"To apply for emergency shelter, you must go to an 
+<a href=\\\"http:\\\/\\\/www.nyc.gov\\\/html\\\/dhs\\\/html\\\/faq\\\/faq.shtml#2\\\">intake center<\\\/a>. The Department of Homeless Services provides more information on their website for 
+  <a href=\\\"http:\\\/\\\/www.nyc.gov\\\/html\\\/dhs\\\/html\\\/housing\\\/families.shtml\\\">families with children and for pregnant women<\\\/a>, for 
+    <a href=\\\"http:\\\/\\\/www.nyc.gov\\\/html\\\/dhs\\\/html\\\/housing\\\/adult.shtml\\\">adult families<\\\/a>, and for 
+      <a href=\\\"http:\\\/\\\/www.nyc.gov\\\/html\\\/dhs\\\/html\\\/housing\\\/single.shtml\\\">single adults<\\\/a>."
+      }
+    ]
+  },
+  {
+    "id": "20040922-51E1FAAC-0CD9-11D9-BE4E-8C999120B6A6",
+    "service_name": "HomeBase Program to Prevent Becoming Homeless",
+    "expiration": "12-31-2099T00:00:00Z",
+    "categories": [
+      {
+        "category_name": "Housing and Development"
+      }
+    ],
+    "url": "/nyc-resources/service/1854/service",
+    "brief_description": "Get information about the HomeBase homelessness prevention program.",
+    "description": "The City's HomeBase is a homelessness prevention program administered by community-based organizations in high-need neighborhoods. The community-based organizations provide casework services and issue short-term financial assistance. They will also help individuals and families locate existing community-based resources such as job training, child care, and anti-eviction legal services.\n\nYou are strongly encouraged to call your nearest HomeBase location before visiting. Depending on your address and situation, you may be advised to go to a different HomeBase office in your borough.",
+    "description_html": " The City's HomeBase is a homelessness prevention program administered by community-based organizations in high-need neighborhoods. The community-based organizations provide casework services and issue short-term financial assistance. They will also help individuals and families locate existing community-based resources such as job training, child care, and anti-eviction legal services. \n\n You are strongly encouraged to call your nearest HomeBase location before visiting. Depending on your address and situation, you may be advised to go to a different HomeBase office in your borough. ",
+    "web_actions": [
+      {
+        "type": "Webpage",
+        "label": "Call 311 to find a HomeBase Site.",
+        "url": ""
+      },
+      {
+        "type": "Webpage",
+        "label": "Get information about HomeBase.",
+        "url": "http://www.nyc.gov/html/dhs/html/prevention/homebase.shtml"
+      }
+    ],
+    "faqs": [
+      {
+        "id":"20120720-A710E666-D29A-11E1-B69F-EA99CF173B35",
+        "question":"How do I learn more about the HomeBase Program?",
+        "expiration":"12-31-2099T00:00:00Z",
+        "url":"/nyc-resources/faq/413/faq",
+        "answer":"You can go to a HomeBase office near you to learn more about the HomeBase Program and find out if you are eligible for it.",
+        "answer_html":"You can go to a 
+<a href=\\\"http:\\\/\\\/www.nyc.gov\\\/html\\\/dhs\\\/downloads\\\/pdf\\\/hb_citywide_map.pdf\\\">HomeBase office<\\\/a> near you to learn more about the HomeBase Program and find out if you are eligible for it."
+      }
+    ]
+  },
+  {
+    "id": "2002-12-05-22-25-49_000010083df018c04001ec6a",
+    "service_name": "Donate to the Homeless Trust Fund",
+    "expiration": "12-31-2099T00:00:00Z",
+    "categories": [
+      {
+        "category_name": "Social Services"
+      }
+    ],
+    "url": "/nyc-resources/service/1553/service",
+    "brief_description": "Donate money to help homeless people.",
+    "description": "You can help improve the quality of life of homeless individuals by donating to the Homeless Trust Fund.&nbsp;",
+    "description_html": "You can help improve the quality of life of homeless individuals by donating to the Homeless Trust Fund.&nbsp;",
+    "web_actions": [
+      {
+        "type": "Webpage",
+        "label": "Learn about the Homeless Trust Fund.",
+        "url": "http://www.nyc.gov/html/dhs/html/help/donations.shtml"
+      }
+    ],
+    "faqs": [
+      
+    ]
+  },
+  {
+    "id": "20041015-C8D87746-1EE8-11D9-B69D-E201F20E2C4E",
+    "service_name": "Lawsuit Settlement Information for Homeless Families",
+    "expiration": "12-31-2099T00:00:00Z",
+    "categories": [
+      {
+        "category_name": "Social Services"
+      }
+    ],
+    "url": "/nyc-resources/service/2430/service",
+    "brief_description": "Get information about fines owed to homeless families under several lawsuits, including the McCain lawsuit.",
+    "description": "The City provides information about fines and payments that may be owed to homeless families as the result of the following lawsuits:\n\nBoston v. City\nConsetino v. Carrion\nLamboy v. Doar\nMcCain v. Bloomberg\nSlade v. Bloomberg\n",
+    "description_html": "<p>The City provides information about fines and payments that may be owed to homeless families as the result of the following lawsuits:<\/p>\n<ul>\n<li>Boston v. City<\/li>\n<li>Consetino v. Carrion<\/li>\n<li>Lamboy v. Doar<\/li>\n<li>McCain v. Bloomberg<\/li>\n<li>Slade v. Bloomberg<\/li>\n<\/ul>",
+    "web_actions": [
+      {
+        "type": "Webpage",
+        "label": "Call 311 to get information about settlements and fine payments to eligible homeless families.",
+        "url": ""
+      }
+    ],
+    "faqs": [
+      
+    ]
+  },
+  {
+    "id": "20090318-000DA436-13CA-11DE-84CC-E9D64ACDA2BA",
+    "service_name": "Homeless or Runaway Shelter Comment or Complaint",
+    "expiration": "12-31-2099T00:00:00Z",
+    "categories": [
+      {
+        "category_name": "Social Services"
+      }
+    ],
+    "url": "/nyc-resources/service/1853/service",
+    "brief_description": "Make a comment or complaint about a homeless shelter, drop-in center or runaway youth shelter. ",
+    "description": "The City accepts complaints about homeless shelters, drop-in centers, or shelters for runaway or homeless youth. ",
+    "description_html": "The City accepts complaints about homeless shelters, drop-in centers, or shelters for runaway or homeless youth. ",
+    "web_actions": [
+      {
+        "type": "Webpage",
+        "label": "Contact Youth Connect to make a comment or complaint about a runaway youth shelter.",
+        "url": "http://www.nyc.gov/html/dycd/html/youth_connect/youth_connect.shtml"
+      },
+      {
+        "type": "Webpage",
+        "label": "Contact the Department of Homeless Services (DHS) Office of the Commissioner to make a comment or complaint about a homeless shelter.",
+        "url": "http://www.nyc.gov/html/dhs/html/contact/contact.shtml"
+      }
+    ],
+    "faqs": [
+      {
+        "id":"20120725-E7AE6E58-D67F-11E1-806A-ABB5018B4981",
+        "question":"How do I make a complaint about a homeless shelter?",
+        "expiration":"12-31-2099T00:00:00Z",
+        "url":"/nyc-resources/faq/414/faq",
+        "answer":"You can contact the Department of Homeless Services to make a complaint about a homeless shelter.",
+        "answer_html":"You can contact the 
+<a href=\\\"http:\\\/\\\/www.nyc.gov\\\/html\\\/mail\\\/html\\\/maildhs.html\\\">Department of Homeless Services<\\\/a> to make a complaint about a homeless shelter."
+      }
+    ]
+  },
+  {
+    "id": "20101105-0F060A90-E917-11DF-BC2C-96DAE110FEB8",
+    "service_name": "Income Savings Requirement for Homeless Shelter Residents",
+    "expiration": "12-31-2099T00:00:00Z",
+    "categories": [
+      {
+        "category_name": "Social Services"
+      }
+    ],
+    "url": "/nyc-resources/service/1902/service",
+    "brief_description": "Get information about the Income Savings Requirement (ISR) for homeless shelter residents.",
+    "description": "The Income Savings Requirement (ISR) is a program that requires families with income to save money every month while in shelter.&#160;The Human Resources Administration (HRA)&#160;determines if your family must contribute through ISR and how much you will be required to save. \n\nIf you have questions about the ISR, you should speak to your caseworker at your shelter.",
+    "description_html": "The Income Savings Requirement (ISR) is a program that requires families with income to save money every month while in shelter.&#160;The Human Resources Administration (HRA)&#160;determines if your family must contribute through ISR and how much you will be required to save. \n\n<p>If you have questions about the ISR, you should speak to your caseworker at your shelter.<\/p>",
+    "web_actions": [
+      
+    ],
+    "faqs": [
+      
+    ]
+  },
+  {
+    "id": "20090318-15806F10-13CA-11DE-A869-E41D07C3D791",
+    "service_name": "Youth Counseling and Services",
+    "expiration": "12-31-2099T00:00:00Z",
+    "categories": [
+      {
+        "category_name": "Social Services"
+      },
+      {
+        "category_name": "Health"
+      }
+    ],
+    "url": "/nyc-resources/service/2770/service",
+    "brief_description": "Get information about services for troubled, runaway, or homeless youth and their families, including Youth Connect and walk-in centers.",
+    "description": "Through Youth Connect, the City provides confidential and anonymous telephone or online assistance for youth, their families, and concerned service providers. They will provide referrals or simply listen to your problems. They provide information on delinquency prevention and youth intervention programs, employment, recreation, after-school programs, day care and more. In addition, they offer crisis intervention for runaways.Drop-in centers are located in every borough to provide services to runaway, homeless, and troubled youth and their families. Services include counseling, mediation, and referrals to health, mental health, and substance abuse treatment.",
+    "description_html": "Through Youth Connect, the City provides confidential and anonymous telephone or online assistance for youth, their families, and concerned service providers. They will provide referrals or simply listen to your problems. They provide information on delinquency prevention and youth intervention programs, employment, recreation, after-school programs, day care and more. In addition, they offer crisis intervention for runaways.<br><br>Drop-in centers are located in every borough to provide services to runaway, homeless, and troubled youth and their families. Services include counseling, mediation, and referrals to health, mental health, and substance abuse treatment.",
+    "web_actions": [
+      {
+        "type": "Webpage",
+        "label": "Get information about Youth Connect's confidential services.",
+        "url": "http://www.nyc.gov/html/dycd/html/youth/youth.shtml"
+      }
+    ],
+    "faqs": [
+      
+    ]
+  },
+  {
+    "id": "20090318-B66924CC-13C9-11DE-9587-F0D47BAC4A9E",
+    "service_name": "Library Information",
+    "expiration": "12-31-2099T00:00:00Z",
+    "categories": [
+      {
+        "category_name": "Social Services"
+      },
+      {
+        "category_name": "Culture and Recreation"
+      },
+      {
+        "category_name": "Education"
+      }
+    ],
+    "url": "/nyc-resources/service/1967/service",
+    "brief_description": "Get information about a public library.",
+    "description": "The three library systems in the City provide information about their library branch locations, hours, services, and events.",
+    "description_html": " The three library systems in the City provide information about their library branch locations, hours, services, and events. ",
+    "web_actions": [
+      {
+        "type": "Webpage",
+        "label": "Get location and other information for:",
+        "url": ""
+      },
+      {
+        "type": "Webpage",
+        "label": "Bronx, Manhattan and Staten Island libraries",
+        "url": "http://www.nypl.org/"
+      },
+      {
+        "type": "Webpage",
+        "label": "Brooklyn libraries",
+        "url": "http://www.bklynpubliclibrary.org/"
+      },
+      {
+        "type": "Webpage",
+        "label": "Queens libraries",
+        "url": "http://www.queenslibrary.org/"
+      }
+    ],
+    "faqs": [
+      
+    ]
+  },
+  {
+    "id": "20040728-039D08A8-E0E4-11D8-AFED-B492D67FFAF7",
+    "service_name": "Homeless Individual in Shelter Assistance",
+    "expiration": "12-31-2099T00:00:00Z",
+    "categories": [
+      {
+        "category_name": "Social Services"
+      }
+    ],
+    "url": "/nyc-resources/service/1098/service",
+    "brief_description": "Get help if you are a homeless individual currently in the shelter system.",
+    "description": "The City provides client advocacy for homeless individuals living in shelters, who have special needs and concerns.If you are a homeless shelter resident, client advocates can help with resolving issues and overcoming barriers.&#160; You can also report medical concerns while you are in the shelter.You will need to provide your name, phone number, and shelter location.",
+    "description_html": "<p>The City provides client advocacy for homeless individuals living in shelters, who have special needs and concerns.<\/p><p>If you are a homeless shelter resident, client advocates can help with resolving issues and overcoming barriers.&#160; You can also report medical concerns while you are in the shelter.<\/p><p>You will need to provide your name, phone number, and shelter location.<\/p>",
+    "web_actions": [
+      {
+        "type": "Webpage",
+        "label": "Contact the Department of Homeless Services (DHS) if you are homeless and need assistance.",
+        "url": "http://www.nyc.gov/html/dhs/html/advocacy/advocacy.shtml"
+      }
+    ],
+    "faqs": [
+      
+    ]
+  },
+  {
+    "id": "20110321-405897F2-53C5-11E0-ABB8-B1362A509A95",
+    "service_name": "NYC Jobs",
+    "expiration": "12-31-2099T00:00:00Z",
+    "categories": [
+      {
+        "category_name": "Civic Services"
+      },
+      {
+        "category_name": "Business"
+      }
+    ],
+    "url": "/nyc-resources/service/2560/service",
+    "brief_description": "Learn about job opportunities with the City.",
+    "description": "NYC Jobs is New York City's official government jobs website where you can find general career information. You can also learn about and apply to open jobs and civil service exams across City agencies. Most positions in New York City government are filled through civil service exams.",
+    "description_html": " NYC Jobs is New York City's official government jobs website where you can find general career information. You can also learn about and apply to open jobs and civil service exams across City agencies. Most positions in New York City government are filled through civil service exams. ",
+    "web_actions": [
+      {
+        "type": "Webpage",
+        "label": "Visit NYC Jobs.",
+        "url": "http://www1.nyc.gov/jobs/index.page"
+      }
+    ],
+    "faqs": [
+      
+    ]
+  },
+  {
+    "id": "20090318-BAFCE442-13C9-11DE-9034-8F67298FD011",
+    "service_name": "Volunteer Opportunities",
+    "expiration": "12-31-2099T00:00:00Z",
+    "categories": [
+      {
+        "category_name": "Social Services"
+      }
+    ],
+    "url": "/nyc-resources/service/2698/service",
+    "brief_description": "Get information about NYC Service and various volunteer opportunities throughout the City.",
+    "description": "The City encourages you to register with NYC Service and take part in projects designed to help New York and New Yorkers recover from Hurricane Sandy.\nThrough NYC Service, generally you will find opportunities to volunteer in one of the six areas where your help is needed the most:\n\nStrengthening communities\nHelping neighbors and people in need\nEducation\nThe environment\nHealth\nEmergency preparedness\n",
+    "description_html": " The City encourages you to register with NYC Service and take part in projects designed to help New York and New Yorkers recover from Hurricane Sandy. \n Through NYC Service, generally you will find opportunities to volunteer in one of the six areas where your help is needed the most: \n \n Strengthening communities \n Helping neighbors and people in need \n Education \n The environment \n Health \n Emergency preparedness \n ",
+    "web_actions": [
+      {
+        "type": "Webpage",
+        "label": "Register with NYC Service.",
+        "url": "https://www.facebook.com/nycservice"
+      },
+      {
+        "type": "Webpage",
+        "label": "Search for volunteer opportunities.",
+        "url": "http://www.nyc.gov/service"
+      },
+      {
+        "type": "Webpage",
+        "label": "Get information about Adopt a Food Program volunteer opportunities.",
+        "url": "http://help.foodbanknyc.org/site/Survey?ACTION_REQUIRED=URI_ACTION_USER_REQUESTS&SURVEY_ID=2960"
+      },
+      {
+        "type": "Webpage",
+        "label": "Get information about financial education and tax preparation volunteer opportunities.",
+        "url": "http://www.nyc.gov/html/ofe/html/about/volunteer.shtml"
+      },
+      {
+        "type": "Webpage",
+        "label": "Get information about TimeBanksNYC.",
+        "url": "http://www.nycservice.org/initiatives/index.php?bitinitiative_id=9"
+      },
+      {
+        "type": "Webpage",
+        "label": "Volunteer to remove snow.",
+        "url": "http://www.nycservice.org/opportunities/6003"
+      },
+      {
+        "type": "Webpage",
+        "label": "Get information on NYC Service Legal Outreach.",
+        "url": "http://volunteer.nycservice.org"
+      }
+    ],
+    "faqs": [
+      
+    ]
+  }
+]

@@ -13,7 +13,9 @@ public class MainActivity extends FragmentActivity {
 	private Button foodButton;
 	private Button shelterButton;
 	private Button resourcesButton;
+	private Button communityButton;
 	private facilitiesManager FacilitiesManager;
+	private servicesManager ServicesManager;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -44,11 +46,24 @@ public class MainActivity extends FragmentActivity {
 		resourcesButton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				
+				Intent i = new Intent(MainActivity.this, serviceList.class);
+				i.putExtra("type", "resources");
+				startActivity(i);
+			}
+		});
+		
+		communityButton = (Button)findViewById(R.id.communitybutton);
+		communityButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent i = new Intent(MainActivity.this, serviceList.class);
+				i.putExtra("type", "community");
+				startActivity(i);
 			}
 		});
 		
 		FacilitiesManager = facilitiesManager.get(getApplicationContext());
+		ServicesManager = servicesManager.get(getApplicationContext());
 	}
 
 	@Override

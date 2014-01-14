@@ -31,6 +31,12 @@
             android:name=".facilityInfo"
             android:label="@string/facility_information" />
         <activity
+            android:name=".serviceList"
+            android:label="@string/info" />
+        <activity
+            android:name=".serviceInfo"
+            android:label="@string/info" />
+        <activity
             android:name="io.rasmi.homelessnyc.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
