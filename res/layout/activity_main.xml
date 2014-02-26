@@ -42,14 +42,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:paddingTop="16dp" >
-
+<!--  
         <Button
             android:id="@+id/reportbutton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1.4"
             android:text="@string/report_person" />
-
+-->
         <Button
             android:id="@+id/communitybutton"
             android:layout_width="0dp"

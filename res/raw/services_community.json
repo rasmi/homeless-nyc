@@ -127,29 +127,5 @@
     "faqs": [
       
     ]
-  },
-  {
-    "id": "20040123-C660F5DA-4DB8-11D8-8768-BA5B5FBAA081",
-    "service_name": "Volunteer to Survey Homeless Individuals",
-    "expiration": "01-29-2014T00:00:00Z",
-    "categories": [
-      {
-        "category_name": "Social Services"
-      }
-    ],
-    "url": "/nyc-resources/service/3401/service",
-    "brief_description": "HOPE volunteers will survey homeless individuals January 27th.",
-    "description": "The Homeless Outreach Population Estimate (HOPE) takes place on January 27th.&nbsp; You can register to volunteer to survey homeless individuals.&nbsp; You must be 18 or older and be willing to work from 10:30 PM to 4:00 AM.&nbsp; All volunteers will be trained before going out with their teams.\n&nbsp;",
-    "description_html": "The Homeless Outreach Population Estimate (HOPE) takes place on January 27th.&nbsp; You can register to volunteer to survey homeless individuals.&nbsp; You must be 18 or older and be willing to work from 10:30 PM to 4:00 AM.&nbsp; All volunteers will be trained before going out with their teams.\n<p>&nbsp;<\/p>",
-    "web_actions": [
-      {
-        "type": "Webpage",
-        "label": "Register to volunteer for HOPE.",
-        "url": "https://a071-hope.nyc.gov/hope/index.html"
-      }
-    ],
-    "faqs": [
-      
-    ]
   }
  ]

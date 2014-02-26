@@ -45,11 +45,8 @@ public class serviceInfo extends FragmentActivity {
 
 		addWebActions();
 		addFAQs();
-		
-		if (s.name.contains("Food Stamp"))
-			addMap("foodstamps");
-		else if (s.name.contains("Library"))
-			addMap("libraries");
+		addMaps();
+
 	}
 	
 	private void addFAQs() {
@@ -69,6 +66,17 @@ public class serviceInfo extends FragmentActivity {
 			for (webAction w: s.webActions)
 				serviceViewLayout.addView(webActionView(w), ++index);
 		}
+	}
+	
+	private void addMaps() {
+		if (s.name.contains("Food Stamp"))
+			addMap("foodstamps");
+		else if (s.name.contains("Library"))
+			addMap("libraries");
+		else if (s.name.contains("HomeBase"))
+			addMap("homebases");
+		else if (s.name.contains("Intake"))
+			addMap("shelters");
 	}
 	
 	private void addMap(String type) {

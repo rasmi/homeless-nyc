@@ -71,6 +71,7 @@ public class MainActivity extends FragmentActivity {
 			}
 		});
 		
+		/*
 		reportButton = (Button)findViewById(R.id.reportbutton);
 		reportButton.setBackgroundColor(Color.parseColor("#99cc00"));
 		reportButton.setOnClickListener(new View.OnClickListener() {
@@ -80,6 +81,7 @@ public class MainActivity extends FragmentActivity {
 				startActivity(i);
 			}
 		});
+		*/
 		
 		FacilitiesManager = facilitiesManager.get(getApplicationContext());
 		ServicesManager = servicesManager.get(getApplicationContext());
