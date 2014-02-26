@@ -1,0 +1,15 @@
+{
+        "status": "Beta",
+        "thumbnailUrl": "https://raw.github.com/rasmi/homeless-nyc/master/ic_launcher-web.png",
+        "bornAt": "Reinvent 311",
+        "geography": "NYC",
+        "politicalEntity":"NYC 311",
+        "type":"Android App",
+        "needs": [
+                {"need": "Android Dev"}
+        ],
+        "categories": [
+                {"category": "Community"},
+                {"category": "Open Data"}
+        ]
+}
